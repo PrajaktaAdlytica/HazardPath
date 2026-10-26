@@ -31,7 +31,7 @@ jobs:
           else
             git worktree add --detach /tmp/hazardpath-deploy
             git -C /tmp/hazardpath-deploy checkout --orphan hostinger
-            git -C /tmp/hazardpath-deploy rm -r --ignore-unmatch .
+            git -C /tmp/hazardpath-deploy read-tree --empty
           fi
           rsync -a --delete --exclude=.git dist/client/ /tmp/hazardpath-deploy/
           git -C /tmp/hazardpath-deploy add -A
