@@ -1,0 +1,177 @@
+{
+  "references": [
+    "design/01-matcha-terrain.png",
+    "design/02-climate-fieldbook.png",
+    "design/merged-target.png"
+  ],
+  "assets": [
+    {
+      "name": "terrain",
+      "direction": "01 Matcha Terrain",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/terrain.png",
+      "web": "public/art/terrain.webp",
+      "use": "Homepage hero; map and case overview"
+    },
+    {
+      "name": "layers",
+      "direction": "02 Climate Fieldbook",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/layers.png",
+      "web": "public/art/layers.webp",
+      "use": "Source-layer story; Climate Desk; source dictionary"
+    },
+    {
+      "name": "dependencies",
+      "direction": "02 Climate Fieldbook",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/dependencies.png",
+      "web": "public/art/dependencies.webp",
+      "use": "Service dependency map; Climate Review; context pages"
+    },
+    {
+      "name": "current",
+      "direction": "02 Climate Fieldbook",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/current.png",
+      "web": "public/art/current.webp",
+      "use": "Baseline alternative"
+    },
+    {
+      "name": "access",
+      "direction": "01 Matcha Terrain",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/access.png",
+      "web": "public/art/access.webp",
+      "use": "Access alternative; Climate Proof"
+    },
+    {
+      "name": "drainage",
+      "direction": "01 Matcha Terrain",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/drainage.png",
+      "web": "public/art/drainage.webp",
+      "use": "Drainage alternative"
+    },
+    {
+      "name": "fieldbook",
+      "direction": "02 Climate Fieldbook",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/fieldbook.png",
+      "web": "public/art/fieldbook.webp",
+      "use": "Panoramic community; company and final CTA"
+    },
+    {
+      "name": "memo",
+      "direction": "02 Climate Fieldbook",
+      "provenance": "Original generated artwork based on selected references; not a real map or operational record",
+      "original": "design/original-assets/memo.png",
+      "web": "public/art/memo.webp",
+      "use": "Evidence-packet art; Climate Signal; evaluation"
+    },
+    {
+      "name": "contour-symbol",
+      "direction": "Combined contour identity",
+      "provenance": "Original vector reconstruction of user-selected Contour P direction",
+      "file": "public/brand/symbol-olive.svg",
+      "use": "Approved company identity"
+    },
+    {
+      "name": "workspace-demo",
+      "provenance": "Actual browser capture of locally built synthetic source-register screen at 1440 \u00d7 900",
+      "original": "design/qa/desktop-sources-1440.png",
+      "web": "public/art/workspace-demo.webp",
+      "use": "Product and platform screenshot preview"
+    },
+    {
+      "name": "terrain-clear",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/terrain-clear.png",
+      "web": "public/art/terrain-clear.webp"
+    },
+    {
+      "name": "heat-district",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/heat-district.png",
+      "web": "public/art/heat-district.webp"
+    },
+    {
+      "name": "data-network",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/data-network.png",
+      "web": "public/art/data-network.webp"
+    },
+    {
+      "name": "options-lab",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/options-lab.png",
+      "web": "public/art/options-lab.webp"
+    },
+    {
+      "name": "grant-evidence",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/grant-evidence.png",
+      "web": "public/art/grant-evidence.webp"
+    },
+    {
+      "name": "plan-progress",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/plan-progress.png",
+      "web": "public/art/plan-progress.webp"
+    },
+    {
+      "name": "planning-workshop",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/planning-workshop.png",
+      "web": "public/art/planning-workshop.webp"
+    },
+    {
+      "name": "field-survey",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/field-survey.png",
+      "web": "public/art/field-survey.webp"
+    },
+    {
+      "name": "utility-grid",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/utility-grid.png",
+      "web": "public/art/utility-grid.webp"
+    },
+    {
+      "name": "regional-coast",
+      "provenance": "Original generated artwork for the user-requested contrast and variety refresh; fictional illustrative scene",
+      "original": "design/original-assets/regional-coast.png",
+      "web": "public/art/regional-coast.webp"
+    }
+  ],
+  "refresh": {
+    "request": "Remove white cast and reduce repeated imagery",
+    "new_assets": [
+      "terrain-clear",
+      "heat-district",
+      "data-network",
+      "options-lab",
+      "grant-evidence",
+      "plan-progress",
+      "planning-workshop",
+      "field-survey",
+      "utility-grid",
+      "regional-coast"
+    ],
+    "retired_from_live_components": [
+      "terrain",
+      "dependencies",
+      "fieldbook"
+    ],
+    "treatment": "Full-color artwork; no whitening gradients, feather masks or multiply blending. Text uses separate solid surfaces."
+  },
+  "approvedIdentity": {
+    "direction": "Contour P",
+    "kit": "../hazardpath-contour-brand-kit",
+    "websiteLogo": "public/brand/logo-horizontal-forest.svg",
+    "symbol": "public/brand/symbol-olive.svg",
+    "favicon": "public/favicon.svg",
+    "wordmark": "Outlined Cormorant Garamond Semibold",
+    "status": "Applied throughout shared header and footer"
+  }
+}
